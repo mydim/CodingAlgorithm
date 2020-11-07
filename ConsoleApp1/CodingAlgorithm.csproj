@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A9923CA9-9240-4596-9856-5CD77AAA9A15}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>CodingAlgorithm</RootNamespace>
+    <AssemblyName>CodingAlgorithm</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenNLP, Version=1.0.7182.26901, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenNLP.1.3.5\lib\net45\OpenNLP.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpEntropy, Version=1.0.7182.26900, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenNLP.1.3.5\lib\net45\SharpEntropy.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="0Easy\Archive\Class01.cs" />
+    <Compile Include="0Easy\Archive\Class02.cs" />
+    <Compile Include="0Easy\Archive\Class03.cs" />
+    <Compile Include="0Easy\Archive\Class04.cs" />
+    <Compile Include="0Easy\Archive\Class05.cs" />
+    <Compile Include="0Easy\Archive\Class06.cs" />
+    <Compile Include="0Easy\Archive\Class07.cs" />
+    <Compile Include="0Easy\Archive\Class08.cs" />
+    <Compile Include="0Easy\Archive\Class09.cs" />
+    <Compile Include="0Easy\Archive\Class10.cs" />
+    <Compile Include="0Easy\Archive\Class11.cs" />
+    <Compile Include="0Easy\Archive\Class12.cs" />
+    <Compile Include="0Easy\Archive\Class13.cs" />
+    <Compile Include="0Easy\Archive\Class14.cs" />
+    <Compile Include="0Easy\Archive\Class15.cs" />
+    <Compile Include="0Easy\Archive\Class16.cs" />
+    <Compile Include="0Easy\Archive\Class17.cs" />
+    <Compile Include="0Easy\Archive\Class18.cs" />
+    <Compile Include="0Easy\Archive\Class19.cs" />
+    <Compile Include="0Easy\Archive\Class20.cs" />
+    <Compile Include="0Easy\Archive\Class21.cs" />
+    <Compile Include="0Easy\Archive\Class22.cs" />
+    <Compile Include="0Easy\Archive\Class23.cs" />
+    <Compile Include="0Easy\Archive\Class24.cs" />
+    <Compile Include="0Easy\Archive\Class25.cs" />
+    <Compile Include="0Easy\Archive\Class26.cs" />
+    <Compile Include="0Easy\Archive\Class27.cs" />
+    <Compile Include="0Easy\Archive\Class28.cs" />
+    <Compile Include="Structures\BinaryNode.cs" />
+    <Compile Include="0Easy\Archive\Class29.cs" />
+    <Compile Include="0Easy\Archive\Class30.cs" />
+    <Compile Include="0Easy\Archive\Class31.cs" />
+    <Compile Include="0Easy\Archive\Class32.cs" />
+    <Compile Include="0Easy\Archive\Class33.cs" />
+    <Compile Include="0Easy\Archive\Class34.cs" />
+    <Compile Include="0Easy\Archive\Class35.cs" />
+    <Compile Include="0Easy\Archive\Class36.cs" />
+    <Compile Include="0Easy\Archive\Class37.cs" />
+    <Compile Include="0Easy\Archive\Class38.cs" />
+    <Compile Include="0Easy\Archive\Class39.cs" />
+    <Compile Include="0Easy\Archive\Class40.cs" />
+    <Compile Include="0Easy\Archive\Class41.cs" />
+    <Compile Include="0Easy\Archive\Class42.cs" />
+    <Compile Include="0Easy\Archive\Class43.cs" />
+    <Compile Include="0Easy\Archive\Class44.cs" />
+    <Compile Include="0Easy\Archive\Class45.cs" />
+    <Compile Include="0Easy\Archive\Class46.cs" />
+    <Compile Include="0Easy\Archive\Class47.cs" />
+    <Compile Include="0Easy\Archive\Class48.cs" />
+    <Compile Include="0Easy\CurrentSet\Class49.cs" />
+    <Compile Include="0Easy\CurrentSet\Class50.cs" />
+    <Compile Include="0Easy\CurrentSet\Class51.cs" />
+    <Compile Include="0Easy\CurrentSet\Class52.cs" />
+    <Compile Include="0Easy\CurrentSet\Class53.cs" />
+    <Compile Include="0Easy\CurrentSet\Class54.cs" />
+    <Compile Include="0Easy\CurrentSet\Class55.cs" />
+    <Compile Include="0Easy\CurrentSet\Class56.cs" />
+    <Compile Include="0Easy\CurrentSet\Class57.cs" />
+    <Compile Include="0Easy\CurrentSet\Class58.cs" />
+    <Compile Include="0Easy\CurrentSet\Class59.cs" />
+    <Compile Include="0Easy\CurrentSet\Class60.cs" />
+    <Compile Include="0Easy\CurrentSet\Class61.cs" />
+    <Compile Include="0Easy\CurrentSet\Class62.cs" />
+    <Compile Include="0Easy\Other\Class63.cs" />
+    <Compile Include="0Easy\Other\Class64.cs" />
+    <Compile Include="0Easy\Other\Class65.cs" />
+    <Compile Include="0Easy\Other\Class66.cs" />
+    <Compile Include="0Easy\Other\Class67.cs" />
+    <Compile Include="0Easy\Other\Class68.cs" />
+    <Compile Include="0Easy\Other\Class69.cs" />
+    <Compile Include="0Easy\Other\Class70.cs" />
+    <Compile Include="0Easy\Other\Class71.cs" />
+    <Compile Include="0Easy\Other\Class72.cs" />
+    <Compile Include="0Easy\Other\Class73.cs" />
+    <Compile Include="0Easy\Other\Class74.cs" />
+    <Compile Include="0Easy\Other\Class75.cs" />
+    <Compile Include="0Easy\Other\Class76.cs" />
+    <Compile Include="0Easy\Other\Class77.cs" />
+    <Compile Include="0Easy\Other\Class78.cs" />
+    <Compile Include="0Easy\Other\Class79.cs" />
+    <Compile Include="0Easy\Other\Class80.cs" />
+    <Compile Include="0Easy\Other\Class81.cs" />
+    <Compile Include="0Easy\Other\Class82.cs" />
+    <Compile Include="0Easy\Other\Class83.cs" />
+    <Compile Include="0Easy\Other\Class84.cs" />
+    <Compile Include="0Easy\Other\Class85.cs" />
+    <Compile Include="0Easy\Other\Class86.cs" />
+    <Compile Include="0Easy\Other\Class87.cs" />
+    <Compile Include="0Easy\Other\Class88.cs" />
+    <Compile Include="0Easy\Other\Class89.cs" />
+    <Compile Include="0Easy\Other\Class90.cs" />
+    <Compile Include="0Easy\Other\Class91.cs" />
+    <Compile Include="0Easy\Other\Class92.cs" />
+    <Compile Include="0Easy\Other\Class93.cs" />
+    <Compile Include="0Easy\Other\Class94.cs" />
+    <Compile Include="0Easy\Other\Class95.cs" />
+    <Compile Include="0Easy\Other\Class96.cs" />
+    <Compile Include="0Easy\Other\Class97.cs" />
+    <Compile Include="0Easy\Other\Class98.cs" />
+    <Compile Include="0Easy\Other\Class99.cs" />
+    <Compile Include="2Hard\Archive\Class01.cs" />
+    <Compile Include="2Hard\CurrentSet\Class02.cs" />
+    <Compile Include="2Hard\CurrentSet\Class03.cs" />
+    <Compile Include="2Hard\CurrentSet\Class04.cs" />
+    <Compile Include="2Hard\CurrentSet\Class05.cs" />
+    <Compile Include="2Hard\Other\Class06.cs" />
+    <Compile Include="2Hard\Other\Class07.cs" />
+    <Compile Include="2Hard\Other\Class08.cs" />
+    <Compile Include="2Hard\Other\Class09.cs" />
+    <Compile Include="2Hard\Other\Class10.cs" />
+    <Compile Include="2Hard\Other\Class11.cs" />
+    <Compile Include="2Hard\Other\Class12.cs" />
+    <Compile Include="2Hard\Other\Class13.cs" />
+    <Compile Include="2Hard\Other\Class14.cs" />
+    <Compile Include="2Hard\Other\Class15.cs" />
+    <Compile Include="2Hard\Other\Class16.cs" />
+    <Compile Include="2Hard\Other\Class17.cs" />
+    <Compile Include="2Hard\Other\Class18.cs" />
+    <Compile Include="2Hard\Other\Class19.cs" />
+    <Compile Include="2Hard\Other\Class20.cs" />
+    <Compile Include="2Hard\Other\Class21.cs" />
+    <Compile Include="2Hard\Other\Class22.cs" />
+    <Compile Include="2Hard\Other\Class23.cs" />
+    <Compile Include="2Hard\Other\Class24.cs" />
+    <Compile Include="2Hard\Other\Class25.cs" />
+    <Compile Include="2Hard\Other\Class26.cs" />
+    <Compile Include="2Hard\Other\Class27.cs" />
+    <Compile Include="2Hard\Other\Class28.cs" />
+    <Compile Include="2Hard\Other\Class29.cs" />
+    <Compile Include="2Hard\Other\Class30.cs" />
+    <Compile Include="2Hard\Other\Class31.cs" />
+    <Compile Include="2Hard\Other\Class32.cs" />
+    <Compile Include="2Hard\Other\Class33.cs" />
+    <Compile Include="2Hard\Other\Class34.cs" />
+    <Compile Include="2Hard\Other\Class35.cs" />
+    <Compile Include="2Hard\Other\Class36.cs" />
+    <Compile Include="2Hard\Other\Class37.cs" />
+    <Compile Include="2Hard\Other\Class38.cs" />
+    <Compile Include="2Hard\Other\Class39.cs" />
+    <Compile Include="2Hard\Other\Class40.cs" />
+    <Compile Include="2Hard\Other\Class41.cs" />
+    <Compile Include="2Hard\Other\Class42.cs" />
+    <Compile Include="2Hard\Other\Class43.cs" />
+    <Compile Include="2Hard\Other\Class44.cs" />
+    <Compile Include="2Hard\Other\Class45.cs" />
+    <Compile Include="2Hard\Other\Class46.cs" />
+    <Compile Include="2Hard\Other\Class47.cs" />
+    <Compile Include="2Hard\Other\Class48.cs" />
+    <Compile Include="2Hard\Other\Class49.cs" />
+    <Compile Include="2Hard\Other\Class50.cs" />
+    <Compile Include="2Hard\Other\Class51.cs" />
+    <Compile Include="2Hard\Other\Class52.cs" />
+    <Compile Include="2Hard\Other\Class53.cs" />
+    <Compile Include="2Hard\Other\Class54.cs" />
+    <Compile Include="2Hard\Other\Class55.cs" />
+    <Compile Include="2Hard\Other\Class56.cs" />
+    <Compile Include="2Hard\Other\Class57.cs" />
+    <Compile Include="2Hard\Other\Class58.cs" />
+    <Compile Include="2Hard\Other\Class59.cs" />
+    <Compile Include="2Hard\Other\Class60.cs" />
+    <Compile Include="2Hard\Other\Class61.cs" />
+    <Compile Include="2Hard\Other\Class62.cs" />
+    <Compile Include="2Hard\Other\Class63.cs" />
+    <Compile Include="2Hard\Other\Class64.cs" />
+    <Compile Include="2Hard\Other\Class65.cs" />
+    <Compile Include="2Hard\Other\Class66.cs" />
+    <Compile Include="2Hard\Other\Class67.cs" />
+    <Compile Include="2Hard\Other\Class68.cs" />
+    <Compile Include="2Hard\Other\Class69.cs" />
+    <Compile Include="2Hard\Other\Class70.cs" />
+    <Compile Include="2Hard\Other\Class71.cs" />
+    <Compile Include="2Hard\Other\Class72.cs" />
+    <Compile Include="2Hard\Other\Class73.cs" />
+    <Compile Include="2Hard\Other\Class74.cs" />
+    <Compile Include="2Hard\Other\Class75.cs" />
+    <Compile Include="2Hard\Other\Class76.cs" />
+    <Compile Include="2Hard\Other\Class77.cs" />
+    <Compile Include="2Hard\Other\Class78.cs" />
+    <Compile Include="2Hard\Other\Class79.cs" />
+    <Compile Include="2Hard\Other\Class80.cs" />
+    <Compile Include="2Hard\Other\Class81.cs" />
+    <Compile Include="2Hard\Other\Class82.cs" />
+    <Compile Include="2Hard\Other\Class83.cs" />
+    <Compile Include="2Hard\Other\Class84.cs" />
+    <Compile Include="2Hard\Other\Class85.cs" />
+    <Compile Include="2Hard\Other\Class86.cs" />
+    <Compile Include="2Hard\Other\Class87.cs" />
+    <Compile Include="2Hard\Other\Class88.cs" />
+    <Compile Include="2Hard\Other\Class89.cs" />
+    <Compile Include="2Hard\Other\Class90.cs" />
+    <Compile Include="2Hard\Other\Class91.cs" />
+    <Compile Include="2Hard\Other\Class92.cs" />
+    <Compile Include="2Hard\Other\Class93.cs" />
+    <Compile Include="2Hard\Other\Class94.cs" />
+    <Compile Include="2Hard\Other\Class95.cs" />
+    <Compile Include="2Hard\Other\Class96.cs" />
+    <Compile Include="2Hard\Other\Class97.cs" />
+    <Compile Include="2Hard\Other\Class98.cs" />
+    <Compile Include="2Hard\Other\Class99.cs" />
+    <Compile Include="1Medium\Archive\Class01.cs" />
+    <Compile Include="1Medium\Archive\Class02.cs" />
+    <Compile Include="1Medium\Archive\Class03.cs" />
+    <Compile Include="1Medium\Archive\Class04.cs" />
+    <Compile Include="1Medium\Archive\Class05.cs" />
+    <Compile Include="1Medium\Archive\Class06.cs" />
+    <Compile Include="1Medium\Archive\Class07.cs" />
+    <Compile Include="1Medium\Archive\Class08.cs" />
+    <Compile Include="1Medium\Archive\Class09.cs" />
+    <Compile Include="1Medium\Archive\Class10.cs" />
+    <Compile Include="1Medium\Archive\Class11.cs" />
+    <Compile Include="1Medium\Archive\Class12.cs" />
+    <Compile Include="1Medium\Archive\Class13.cs" />
+    <Compile Include="1Medium\Archive\Class14.cs" />
+    <Compile Include="1Medium\Archive\Class15.cs" />
+    <Compile Include="1Medium\Archive\Class16.cs" />
+    <Compile Include="1Medium\Archive\Class17.cs" />
+    <Compile Include="1Medium\Archive\Class18.cs" />
+    <Compile Include="1Medium\Archive\Class19.cs" />
+    <Compile Include="1Medium\Archive\Class20.cs" />
+    <Compile Include="1Medium\Archive\Class21.cs" />
+    <Compile Include="1Medium\Archive\Class22.cs" />
+    <Compile Include="1Medium\Archive\Class23.cs" />
+    <Compile Include="1Medium\Archive\Class24.cs" />
+    <Compile Include="1Medium\Archive\Class25.cs" />
+    <Compile Include="1Medium\Archive\Class26.cs" />
+    <Compile Include="1Medium\Archive\Class27.cs" />
+    <Compile Include="1Medium\Archive\Class28.cs" />
+    <Compile Include="1Medium\Archive\Class30.cs" />
+    <Compile Include="1Medium\Archive\Class31.cs" />
+    <Compile Include="1Medium\Archive\Class32.cs" />
+    <Compile Include="1Medium\Archive\Class33.cs" />
+    <Compile Include="1Medium\Archive\Class34.cs" />
+    <Compile Include="1Medium\Archive\Class35.cs" />
+    <Compile Include="1Medium\Archive\Class36.cs" />
+    <Compile Include="1Medium\Archive\Class37.cs" />
+    <Compile Include="1Medium\Archive\Class38.cs" />
+    <Compile Include="1Medium\Archive\Class39.cs" />
+    <Compile Include="1Medium\CurrentSet\Class40.cs" />
+    <Compile Include="1Medium\Other\Class41.cs" />
+    <Compile Include="1Medium\Other\Class42.cs" />
+    <Compile Include="1Medium\Other\Class43.cs" />
+    <Compile Include="1Medium\Other\Class44.cs" />
+    <Compile Include="1Medium\Other\Class45.cs" />
+    <Compile Include="1Medium\Other\Class46.cs" />
+    <Compile Include="1Medium\Other\Class47.cs" />
+    <Compile Include="1Medium\Other\Class48.cs" />
+    <Compile Include="1Medium\Other\Class49.cs" />
+    <Compile Include="1Medium\Other\Class50.cs" />
+    <Compile Include="1Medium\Other\Class51.cs" />
+    <Compile Include="1Medium\Other\Class52.cs" />
+    <Compile Include="1Medium\Other\Class53.cs" />
+    <Compile Include="1Medium\Other\Class54.cs" />
+    <Compile Include="1Medium\Other\Class55.cs" />
+    <Compile Include="1Medium\Other\Class56.cs" />
+    <Compile Include="1Medium\Other\Class57.cs" />
+    <Compile Include="1Medium\Other\Class58.cs" />
+    <Compile Include="1Medium\Other\Class59.cs" />
+    <Compile Include="1Medium\Other\Class60.cs" />
+    <Compile Include="1Medium\Other\Class61.cs" />
+    <Compile Include="1Medium\Other\Class62.cs" />
+    <Compile Include="1Medium\Other\Class63.cs" />
+    <Compile Include="1Medium\Other\Class64.cs" />
+    <Compile Include="1Medium\Other\Class65.cs" />
+    <Compile Include="1Medium\Other\Class66.cs" />
+    <Compile Include="1Medium\Other\Class67.cs" />
+    <Compile Include="1Medium\Other\Class68.cs" />
+    <Compile Include="1Medium\Other\Class69.cs" />
+    <Compile Include="1Medium\Other\Class70.cs" />
+    <Compile Include="1Medium\Other\Class71.cs" />
+    <Compile Include="1Medium\Other\Class72.cs" />
+    <Compile Include="1Medium\Other\Class73.cs" />
+    <Compile Include="1Medium\Other\Class74.cs" />
+    <Compile Include="1Medium\Other\Class75.cs" />
+    <Compile Include="1Medium\Other\Class76.cs" />
+    <Compile Include="1Medium\Other\Class77.cs" />
+    <Compile Include="1Medium\Other\Class78.cs" />
+    <Compile Include="1Medium\Other\Class79.cs" />
+    <Compile Include="1Medium\Other\Class80.cs" />
+    <Compile Include="1Medium\Other\Class81.cs" />
+    <Compile Include="1Medium\Other\Class82.cs" />
+    <Compile Include="1Medium\Other\Class83.cs" />
+    <Compile Include="1Medium\Other\Class84.cs" />
+    <Compile Include="1Medium\Other\Class85.cs" />
+    <Compile Include="1Medium\Other\Class86.cs" />
+    <Compile Include="1Medium\Other\Class87.cs" />
+    <Compile Include="1Medium\Other\Class88.cs" />
+    <Compile Include="1Medium\Other\Class89.cs" />
+    <Compile Include="1Medium\Other\Class90.cs" />
+    <Compile Include="1Medium\Other\Class91.cs" />
+    <Compile Include="1Medium\Other\Class92.cs" />
+    <Compile Include="1Medium\Other\Class93.cs" />
+    <Compile Include="1Medium\Other\Class94.cs" />
+    <Compile Include="1Medium\Other\Class95.cs" />
+    <Compile Include="1Medium\Other\Class96.cs" />
+    <Compile Include="1Medium\Other\Class97.cs" />
+    <Compile Include="1Medium\Other\Class98.cs" />
+    <Compile Include="1Medium\Other\Class99.cs" />
+    <Compile Include="CodeUtils.cs" />
+    <Compile Include="MiscSamples.cs" />
+    <Compile Include="Other\1.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structures\TreeNode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
