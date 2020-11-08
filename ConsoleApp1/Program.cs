@@ -22,14 +22,14 @@ namespace ConsoleApp1
             //return;
 
             var easy = 49;
-            var medium = 36;
+            var medium = 41;
             var hard = 0;
             Console.WriteLine("Education completed: "+ (easy+hard+medium)*100/300 + "%");
 
             var t = DateTime.Now;                
 
           //  Easy.Class49.RunCode();
-           Medium.Class37.RunCode();
+           Medium.Class41.RunCode();
             //Hard.Class01.RunCode();
 
             Console.WriteLine("********************");

@@ -72,6 +72,12 @@ namespace CodingAlgorithm
                 Console.Write(string.Format(format, s));
         }
 
+        internal static void PrintList(List<int> list, string format = "{0}")
+        {
+            var s = string.Join(", ", list.ToArray());
+            Console.WriteLine(string.Format(format, s));
+        }
+
         internal static void PrintArrayLine(int[] a, string format = "{0}")
         {
             PrintArray(a, true, format);

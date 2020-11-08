@@ -310,7 +310,7 @@
     <Compile Include="1Medium\Archive\Class38.cs" />
     <Compile Include="1Medium\Archive\Class39.cs" />
     <Compile Include="1Medium\CurrentSet\Class40.cs" />
-    <Compile Include="1Medium\Other\Class41.cs" />
+    <Compile Include="1Medium\CurrentSet\Class41.cs" />
     <Compile Include="1Medium\Other\Class42.cs" />
     <Compile Include="1Medium\Other\Class43.cs" />
     <Compile Include="1Medium\Other\Class44.cs" />
